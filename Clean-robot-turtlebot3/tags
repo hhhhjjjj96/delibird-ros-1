@@ -1,0 +1,186 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Boundingjudge	clean_robot/src/CleaningPathPlanner.cpp	/^bool CleaningPathPlanning::Boundingjudge(int a, int b)$/;"	f	class:CleaningPathPlanning
+CLEANINGPATHPLANNING_H	clean_robot/include/CleaningPathPlanner.h	8;"	d
+CLEANINGPATHPLANNING_H	clean_robot/src/CleaningPathPlanner.h	8;"	d
+COSTMAP_CLIENT_	explore/include/explore/costmap_client.h	38;"	d
+COSTMAP_TOOLS_H_	explore/include/explore/costmap_tools.h	2;"	d
+CleaningPathPlanning	clean_robot/include/CleaningPathPlanner.h	/^class CleaningPathPlanning$/;"	c
+CleaningPathPlanning	clean_robot/src/CleaningPathPlanner.cpp	/^CleaningPathPlanning::CleaningPathPlanning(costmap_2d::Costmap2DROS *costmap2d_ros)$/;"	f	class:CleaningPathPlanning
+CleaningPathPlanning	clean_robot/src/CleaningPathPlanner.h	/^class CleaningPathPlanning$/;"	c
+Costmap2DClient	explore/include/explore/costmap_client.h	/^class Costmap2DClient$/;"	c	namespace:explore
+Costmap2DClient	explore/src/costmap_client.cpp	/^Costmap2DClient::Costmap2DClient(ros::NodeHandle& param_nh,$/;"	f	class:explore::Costmap2DClient
+Explore	explore/include/explore/explore.h	/^class Explore$/;"	c	namespace:explore
+Explore	explore/src/explore.cpp	/^Explore::Explore()$/;"	f	class:explore::Explore
+FRONTIER_SEARCH_H_	explore/include/explore/frontier_search.h	2;"	d
+Frontier	explore/include/explore/frontier_search.h	/^struct Frontier {$/;"	s	namespace:frontier_exploration
+FrontierSearch	explore/include/explore/frontier_search.h	/^  FrontierSearch()$/;"	f	class:frontier_exploration::FrontierSearch
+FrontierSearch	explore/include/explore/frontier_search.h	/^class FrontierSearch$/;"	c	namespace:frontier_exploration
+FrontierSearch	explore/src/frontier_search.cpp	/^FrontierSearch::FrontierSearch(costmap_2d::Costmap2D* costmap,$/;"	f	class:frontier_exploration::FrontierSearch
+GRID_COVERED_VALUE	clean_robot/include/CleaningPathPlanner.h	/^    int GRID_COVERED_VALUE;$/;"	m	class:CleaningPathPlanning
+GRID_COVERED_VALUE	clean_robot/src/CleaningPathPlanner.h	/^    int GRID_COVERED_VALUE;$/;"	m	class:CleaningPathPlanning
+GetBorderTrackingPathInCV	clean_robot/src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::GetBorderTrackingPathInCV(vector<cv::Point2i> &resultVec)$/;"	f	class:CleaningPathPlanning
+GetBorderTrackingPathInROS	clean_robot/src/CleaningPathPlanner.cpp	/^vector<geometry_msgs::PoseStamped> CleaningPathPlanning::GetBorderTrackingPathInROS()$/;"	f	class:CleaningPathPlanning
+GetPathInCV	clean_robot/src/CleaningPathPlanner.cpp	/^vector<cellIndex> CleaningPathPlanning::GetPathInCV()$/;"	f	class:CleaningPathPlanning
+GetPathInROS	clean_robot/src/CleaningPathPlanner.cpp	/^vector<geometry_msgs::PoseStamped> CleaningPathPlanning::GetPathInROS()$/;"	f	class:CleaningPathPlanning
+GetSizeOfCell	clean_robot/include/CleaningPathPlanner.h	/^    int GetSizeOfCell(){return this->SIZE_OF_CELL;}$/;"	f	class:CleaningPathPlanning
+GetSizeOfCell	clean_robot/src/CleaningPathPlanner.h	/^    int GetSizeOfCell() { return this->SIZE_OF_CELL; }$/;"	f	class:CleaningPathPlanning
+Goal	clean_robot/src/next_goal.cpp	/^  struct Goal$/;"	s	class:Path_planned	file:
+NAV_EXPLORE_H_	explore/include/explore/explore.h	38;"	d
+PI	clean_robot/include/CleaningPathPlanner.h	/^constexpr double PI =3.14159;$/;"	v
+PI	clean_robot/src/CleaningPathPlanner.h	/^constexpr double PI = 3.14159;$/;"	v
+Path	clean_robot/src/next_goal.cpp	/^  vector<Goal> Path;$/;"	m	class:Path_planned	file:
+Path_planned	clean_robot/src/next_goal.cpp	/^Path_planned::Path_planned()$/;"	f	class:Path_planned
+Path_planned	clean_robot/src/next_goal.cpp	/^class Path_planned$/;"	c	file:
+PublishCoveragePath	clean_robot/src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::PublishCoveragePath()$/;"	f	class:CleaningPathPlanning
+PublishGrid	clean_robot/src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::PublishGrid()$/;"	f	class:CleaningPathPlanning
+SIZE_OF_CELL	clean_robot/include/CleaningPathPlanner.h	/^    int SIZE_OF_CELL; \/\/must be odd number.$/;"	m	class:CleaningPathPlanning
+SIZE_OF_CELL	clean_robot/src/CleaningPathPlanner.h	/^    int SIZE_OF_CELL; \/\/must be odd number.$/;"	m	class:CleaningPathPlanning
+SetCoveredGrid	clean_robot/src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::SetCoveredGrid(double wx, double wy)$/;"	f	class:CleaningPathPlanning
+addGoal	clean_robot/src/next_goal.cpp	/^void Path_planned::addGoal(float X, float Y, bool visit)$/;"	f	class:Path_planned
+buildNewFrontier	explore/src/frontier_search.cpp	/^Frontier FrontierSearch::buildNewFrontier(unsigned int initial_cell,$/;"	f	class:frontier_exploration::FrontierSearch
+cellContainsPoint	clean_robot/src/CleaningPathPlanner.cpp	/^bool CleaningPathPlanning::cellContainsPoint(Point2i pt, cellIndex cell)$/;"	f	class:CleaningPathPlanning
+cellIndex	clean_robot/include/CleaningPathPlanner.h	/^struct cellIndex$/;"	s
+cellIndex	clean_robot/src/CleaningPathPlanner.h	/^struct cellIndex$/;"	s
+cellMat_	clean_robot/include/CleaningPathPlanner.h	/^    Mat cellMat_;$/;"	m	class:CleaningPathPlanning
+cellMat_	clean_robot/src/CleaningPathPlanner.h	/^    Mat cellMat_;$/;"	m	class:CleaningPathPlanning
+centroid	explore/include/explore/frontier_search.h	/^  geometry_msgs::Point centroid;$/;"	m	struct:frontier_exploration::Frontier
+col	clean_robot/include/CleaningPathPlanner.h	/^    int col;$/;"	m	struct:cellIndex
+col	clean_robot/src/CleaningPathPlanner.h	/^    int col;$/;"	m	struct:cellIndex
+cost	explore/include/explore/frontier_search.h	/^  double cost;$/;"	m	struct:frontier_exploration::Frontier
+cost_translation_table__	explore/src/costmap_client.cpp	/^static const std::array<unsigned char, 256> cost_translation_table__ =$/;"	m	namespace:explore	file:
+costmap2d_	clean_robot/include/CleaningPathPlanner.h	/^    costmap_2d::Costmap2D* costmap2d_;$/;"	m	class:CleaningPathPlanning
+costmap2d_	clean_robot/src/CleaningPathPlanner.h	/^    costmap_2d::Costmap2D *costmap2d_;$/;"	m	class:CleaningPathPlanning
+costmap2d_ros_	clean_robot/include/CleaningPathPlanner.h	/^    costmap_2d::Costmap2DROS* costmap2d_ros_;$/;"	m	class:CleaningPathPlanning
+costmap2d_ros_	clean_robot/src/CleaningPathPlanner.h	/^    costmap_2d::Costmap2DROS *costmap2d_ros_;$/;"	m	class:CleaningPathPlanning
+costmap_	explore/include/explore/costmap_client.h	/^  costmap_2d::Costmap2D costmap_;$/;"	m	class:explore::Costmap2DClient
+costmap_	explore/include/explore/frontier_search.h	/^  costmap_2d::Costmap2D* costmap_;$/;"	m	class:frontier_exploration::FrontierSearch
+costmap_client_	explore/include/explore/explore.h	/^  Costmap2DClient costmap_client_;$/;"	m	class:explore::Explore
+costmap_sub_	explore/include/explore/costmap_client.h	/^  ros::Subscriber costmap_sub_;$/;"	m	class:explore::Costmap2DClient
+costmap_updates_sub_	explore/include/explore/costmap_client.h	/^  ros::Subscriber costmap_updates_sub_;$/;"	m	class:explore::Costmap2DClient
+covered_path_grid_	clean_robot/include/CleaningPathPlanner.h	/^    nav_msgs::OccupancyGrid covered_path_grid_;$/;"	m	class:CleaningPathPlanning
+covered_path_grid_	clean_robot/src/CleaningPathPlanner.h	/^    nav_msgs::OccupancyGrid covered_path_grid_;$/;"	m	class:CleaningPathPlanning
+distance	clean_robot/src/CleaningPathPlanner.cpp	/^double CleaningPathPlanning::distance(Point2i pta, Point2i ptb)$/;"	f	class:CleaningPathPlanning
+explore	explore/include/explore/costmap_client.h	/^namespace explore$/;"	n
+explore	explore/include/explore/explore.h	/^namespace explore$/;"	n
+explore	explore/src/costmap_client.cpp	/^namespace explore$/;"	n	file:
+explore	explore/src/explore.cpp	/^namespace explore$/;"	n	file:
+exploring_timer_	explore/include/explore/explore.h	/^  ros::Timer exploring_timer_;$/;"	m	class:explore::Explore
+findElement	clean_robot/src/CleaningPathPlanner.cpp	/^bool CleaningPathPlanning::findElement(vector<Point2i> pointsVec, Point2i pt, int &index)$/;"	f	class:CleaningPathPlanning
+freeSpaceVec_	clean_robot/include/CleaningPathPlanner.h	/^    vector<cellIndex> freeSpaceVec_;$/;"	m	class:CleaningPathPlanning
+freeSpaceVec_	clean_robot/src/CleaningPathPlanner.h	/^    vector<cellIndex> freeSpaceVec_;$/;"	m	class:CleaningPathPlanning
+frontierCost	explore/src/frontier_search.cpp	/^double FrontierSearch::frontierCost(const Frontier& frontier)$/;"	f	class:frontier_exploration::FrontierSearch
+frontier_blacklist_	explore/include/explore/explore.h	/^  std::vector<geometry_msgs::Point> frontier_blacklist_;$/;"	m	class:explore::Explore
+frontier_exploration	explore/include/explore/costmap_tools.h	/^namespace frontier_exploration$/;"	n
+frontier_exploration	explore/include/explore/frontier_search.h	/^namespace frontier_exploration$/;"	n
+frontier_exploration	explore/src/frontier_search.cpp	/^namespace frontier_exploration$/;"	n	file:
+gain_scale_	explore/include/explore/explore.h	/^  double potential_scale_, orientation_scale_, gain_scale_;$/;"	m	class:explore::Explore
+gain_scale_	explore/include/explore/frontier_search.h	/^  double potential_scale_, gain_scale_;$/;"	m	class:frontier_exploration::FrontierSearch
+getBaseFrameID	explore/include/explore/costmap_client.h	/^  const std::string& getBaseFrameID() const$/;"	f	class:explore::Costmap2DClient
+getCellMatAndFreeSpace	clean_robot/src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::getCellMatAndFreeSpace(Mat srcImg, Mat &cellMat, vector<cellIndex> &freeSpaceVec)$/;"	f	class:CleaningPathPlanning
+getCostmap	explore/include/explore/costmap_client.h	/^  const costmap_2d::Costmap2D* getCostmap() const$/;"	f	class:explore::Costmap2DClient
+getCostmap	explore/include/explore/costmap_client.h	/^  costmap_2d::Costmap2D* getCostmap()$/;"	f	class:explore::Costmap2DClient
+getGlobalFrameID	explore/include/explore/costmap_client.h	/^  const std::string& getGlobalFrameID() const$/;"	f	class:explore::Costmap2DClient
+getRobotPose	explore/src/costmap_client.cpp	/^geometry_msgs::Pose Costmap2DClient::getRobotPose() const$/;"	f	class:explore::Costmap2DClient
+global_frame_	explore/include/explore/costmap_client.h	/^  std::string global_frame_;      \/\/\/< @brief The global frame for the costmap$/;"	m	class:explore::Costmap2DClient
+goalOnBlacklist	explore/src/explore.cpp	/^bool Explore::goalOnBlacklist(const geometry_msgs::Point& goal)$/;"	f	class:explore::Explore
+grid_pub_	clean_robot/include/CleaningPathPlanner.h	/^    ros::Publisher grid_pub_;$/;"	m	class:CleaningPathPlanning
+grid_pub_	clean_robot/src/CleaningPathPlanner.h	/^    ros::Publisher grid_pub_;$/;"	m	class:CleaningPathPlanning
+initPose_	clean_robot/include/CleaningPathPlanner.h	/^    tf::Stamped<tf::Pose> initPose_;$/;"	m	class:CleaningPathPlanning
+initPose_	clean_robot/src/CleaningPathPlanner.h	/^    geometry_msgs::PoseStamped initPose_;$/;"	m	class:CleaningPathPlanning
+init_translation_table	explore/src/costmap_client.cpp	/^std::array<unsigned char, 256> init_translation_table()$/;"	f	namespace:explore
+initial	explore/include/explore/frontier_search.h	/^  geometry_msgs::Point initial;$/;"	m	struct:frontier_exploration::Frontier
+initializeCoveredGrid	clean_robot/src/CleaningPathPlanner.cpp	/^bool CleaningPathPlanning::initializeCoveredGrid() \/\/在这里我对CoverGrid的理解为覆盖栅格。$/;"	f	class:CleaningPathPlanning
+initializeMats	clean_robot/src/CleaningPathPlanner.cpp	/^bool CleaningPathPlanning::initializeMats()$/;"	f	class:CleaningPathPlanning
+initializeNeuralMat	clean_robot/src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::initializeNeuralMat(Mat cellMat, Mat neuralizedMat)$/;"	f	class:CleaningPathPlanning
+initialized_	clean_robot/include/CleaningPathPlanner.h	/^    bool initialized_;$/;"	m	class:CleaningPathPlanning
+initialized_	clean_robot/src/CleaningPathPlanner.h	/^    bool initialized_;$/;"	m	class:CleaningPathPlanning
+isNewFrontierCell	explore/src/frontier_search.cpp	/^bool FrontierSearch::isNewFrontierCell(unsigned int idx,$/;"	f	class:frontier_exploration::FrontierSearch
+last_markers_count_	explore/include/explore/explore.h	/^  size_t last_markers_count_;$/;"	m	class:explore::Explore
+last_progress_	explore/include/explore/explore.h	/^  ros::Time last_progress_;$/;"	m	class:explore::Explore
+main	clean_robot/src/PathPlanningNode.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	clean_robot/src/next_goal.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	explore/src/explore.cpp	/^int main(int argc, char** argv)$/;"	f
+mainPlanningLoop	clean_robot/src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::mainPlanningLoop()$/;"	f	class:CleaningPathPlanning
+makePlan	explore/src/explore.cpp	/^void Explore::makePlan()$/;"	f	class:explore::Explore
+map_	explore/include/explore/frontier_search.h	/^  unsigned char* map_;$/;"	m	class:frontier_exploration::FrontierSearch
+marker_array_publisher_	explore/include/explore/explore.h	/^  ros::Publisher marker_array_publisher_;$/;"	m	class:explore::Explore
+middle	explore/include/explore/frontier_search.h	/^  geometry_msgs::Point middle;$/;"	m	struct:frontier_exploration::Frontier
+min_distance	explore/include/explore/frontier_search.h	/^  double min_distance;$/;"	m	struct:frontier_exploration::Frontier
+min_frontier_size_	explore/include/explore/frontier_search.h	/^  double min_frontier_size_;$/;"	m	class:frontier_exploration::FrontierSearch
+move_base_client_	explore/include/explore/explore.h	/^      move_base_client_;$/;"	m	class:explore::Explore
+nearestCell	explore/include/explore/costmap_tools.h	/^bool nearestCell(unsigned int& result, unsigned int start, unsigned char val,$/;"	f	namespace:frontier_exploration
+neuralizedMat_	clean_robot/include/CleaningPathPlanner.h	/^    Mat neuralizedMat_;$/;"	m	class:CleaningPathPlanning
+neuralizedMat_	clean_robot/src/CleaningPathPlanner.h	/^    Mat neuralizedMat_;$/;"	m	class:CleaningPathPlanning
+new_path	clean_robot/src/next_goal.cpp	/^bool new_path = false;$/;"	v
+nhood4	explore/include/explore/costmap_tools.h	/^std::vector<unsigned int> nhood4(unsigned int idx,$/;"	f	namespace:frontier_exploration
+nhood8	explore/include/explore/costmap_tools.h	/^std::vector<unsigned int> nhood8(unsigned int idx,$/;"	f	namespace:frontier_exploration
+normeNextGoal	clean_robot/src/next_goal.cpp	/^float normeNextGoal;$/;"	v
+oneshot_	explore/include/explore/explore.h	/^  ros::Timer oneshot_;$/;"	m	class:explore::Explore
+operator ==	explore/src/explore.cpp	/^inline static bool operator==(const geometry_msgs::Point& one,$/;"	f	file:
+orientation_scale_	explore/include/explore/explore.h	/^  double potential_scale_, orientation_scale_, gain_scale_;$/;"	m	class:explore::Explore
+passed_path	clean_robot/src/next_goal.cpp	/^nav_msgs::Path passed_path;$/;"	v
+pathVecInROS_	clean_robot/include/CleaningPathPlanner.h	/^    vector<geometry_msgs::PoseStamped> pathVecInROS_;$/;"	m	class:CleaningPathPlanning
+pathVecInROS_	clean_robot/src/CleaningPathPlanner.h	/^    vector<geometry_msgs::PoseStamped> pathVecInROS_;$/;"	m	class:CleaningPathPlanning
+pathVec_	clean_robot/include/CleaningPathPlanner.h	/^    vector<cellIndex> pathVec_;$/;"	m	class:CleaningPathPlanning
+pathVec_	clean_robot/src/CleaningPathPlanner.h	/^    vector<cellIndex> pathVec_;$/;"	m	class:CleaningPathPlanning
+path_callback	clean_robot/src/next_goal.cpp	/^void path_callback(const nav_msgs::Path &path)$/;"	f
+plan_pub_	clean_robot/include/CleaningPathPlanner.h	/^    ros::Publisher plan_pub_;$/;"	m	class:CleaningPathPlanning
+plan_pub_	clean_robot/src/CleaningPathPlanner.h	/^    ros::Publisher plan_pub_;$/;"	m	class:CleaningPathPlanning
+planned_path	clean_robot/src/next_goal.cpp	/^Path_planned planned_path;$/;"	v
+planner_frequency_	explore/include/explore/explore.h	/^  double planner_frequency_;$/;"	m	class:explore::Explore
+points	explore/include/explore/frontier_search.h	/^  std::vector<geometry_msgs::Point> points;$/;"	m	struct:frontier_exploration::Frontier
+pose_callback	clean_robot/src/next_goal.cpp	/^void pose_callback(const nav_msgs::Odometry &poses)$/;"	f
+potential_scale_	explore/include/explore/explore.h	/^  double potential_scale_, orientation_scale_, gain_scale_;$/;"	m	class:explore::Explore
+potential_scale_	explore/include/explore/frontier_search.h	/^  double potential_scale_, gain_scale_;$/;"	m	class:frontier_exploration::FrontierSearch
+prev_distance_	explore/include/explore/explore.h	/^  double prev_distance_;$/;"	m	class:explore::Explore
+prev_goal_	explore/include/explore/explore.h	/^  geometry_msgs::Point prev_goal_;$/;"	m	class:explore::Explore
+private_nh_	explore/include/explore/explore.h	/^  ros::NodeHandle private_nh_;$/;"	m	class:explore::Explore
+progress_timeout_	explore/include/explore/explore.h	/^  ros::Duration progress_timeout_;$/;"	m	class:explore::Explore
+pub_passed_path	clean_robot/src/next_goal.cpp	/^ros::Publisher pub_passed_path;$/;"	v
+publishPlan	clean_robot/src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::publishPlan(const std::vector<geometry_msgs::PoseStamped> &path)$/;"	f	class:CleaningPathPlanning
+quaternion_ros	clean_robot/src/next_goal.cpp	/^class quaternion_ros$/;"	c	file:
+quaternion_ros	clean_robot/src/next_goal.cpp	/^quaternion_ros::quaternion_ros()$/;"	f	class:quaternion_ros
+reachedGoal	explore/src/explore.cpp	/^void Explore::reachedGoal(const actionlib::SimpleClientGoalState& status,$/;"	f	class:explore::Explore
+relative_nh_	explore/include/explore/explore.h	/^  ros::NodeHandle relative_nh_;$/;"	m	class:explore::Explore
+resolution_	clean_robot/include/CleaningPathPlanner.h	/^    double resolution_;$/;"	m	class:CleaningPathPlanning
+resolution_	clean_robot/src/CleaningPathPlanner.h	/^    double resolution_;$/;"	m	class:CleaningPathPlanning
+robot_base_frame_	explore/include/explore/costmap_client.h	/^  std::string robot_base_frame_;  \/\/\/< @brief The frame_id of the robot base$/;"	m	class:explore::Costmap2DClient
+row	clean_robot/include/CleaningPathPlanner.h	/^    int row;$/;"	m	struct:cellIndex
+row	clean_robot/src/CleaningPathPlanner.h	/^    int row;$/;"	m	struct:cellIndex
+searchFrom	explore/src/frontier_search.cpp	/^std::vector<Frontier> FrontierSearch::searchFrom(geometry_msgs::Point position)$/;"	f	class:frontier_exploration::FrontierSearch
+search_	explore/include/explore/explore.h	/^  frontier_exploration::FrontierSearch search_;$/;"	m	class:explore::Explore
+size	explore/include/explore/frontier_search.h	/^  std::uint32_t size;$/;"	m	struct:frontier_exploration::Frontier
+size_x_	explore/include/explore/frontier_search.h	/^  unsigned int size_x_, size_y_;$/;"	m	class:frontier_exploration::FrontierSearch
+size_y_	explore/include/explore/frontier_search.h	/^  unsigned int size_x_, size_y_;$/;"	m	class:frontier_exploration::FrontierSearch
+srcMap_	clean_robot/include/CleaningPathPlanner.h	/^    Mat srcMap_;$/;"	m	class:CleaningPathPlanning
+srcMap_	clean_robot/src/CleaningPathPlanner.h	/^    Mat srcMap_;$/;"	m	class:CleaningPathPlanning
+start	explore/src/explore.cpp	/^void Explore::start()$/;"	f	class:explore::Explore
+stop	explore/src/explore.cpp	/^void Explore::stop()$/;"	f	class:explore::Explore
+taille_last_path	clean_robot/src/next_goal.cpp	/^int taille_last_path = 0;$/;"	v
+tf_	explore/include/explore/costmap_client.h	/^  const tf::TransformListener* const tf_;  \/\/\/< @brief Used for transforming$/;"	m	class:explore::Costmap2DClient::tf
+tf_listener_	explore/include/explore/explore.h	/^  tf::TransformListener tf_listener_;$/;"	m	class:explore::Explore
+theta	clean_robot/include/CleaningPathPlanner.h	/^    double theta; \/\/{0, 45,90,135,180,225,270,315}     角度信息   hjr 注$/;"	m	struct:cellIndex
+theta	clean_robot/src/CleaningPathPlanner.h	/^    double theta; \/\/{0, 45,90,135,180,225,270,315}     角度信息   hjr 注$/;"	m	struct:cellIndex
+toQuaternion	clean_robot/src/next_goal.cpp	/^void quaternion_ros::toQuaternion(float pitch, float roll, float yaw)$/;"	f	class:quaternion_ros
+transform_tolerance_	explore/include/explore/costmap_client.h	/^  double transform_tolerance_;    \/\/\/< timeout before transform errors$/;"	m	class:explore::Costmap2DClient
+updateFullMap	explore/src/costmap_client.cpp	/^void Costmap2DClient::updateFullMap(const nav_msgs::OccupancyGrid::ConstPtr& msg)$/;"	f	class:explore::Costmap2DClient
+updatePartialMap	explore/src/costmap_client.cpp	/^void Costmap2DClient::updatePartialMap($/;"	f	class:explore::Costmap2DClient
+visited	clean_robot/src/next_goal.cpp	/^    bool visited;$/;"	m	struct:Path_planned::Goal	file:
+visualizeFrontiers	explore/src/explore.cpp	/^void Explore::visualizeFrontiers($/;"	f	class:explore::Explore
+visualize_	explore/include/explore/explore.h	/^  bool visualize_;$/;"	m	class:explore::Explore
+w	clean_robot/src/next_goal.cpp	/^  float w;$/;"	m	class:quaternion_ros	file:
+writeResult	clean_robot/src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::writeResult(Mat resultmat, vector<cellIndex> pathVec)$/;"	f	class:CleaningPathPlanning
+writeResult	clean_robot/src/CleaningPathPlanner.cpp	/^void CleaningPathPlanning::writeResult(Mat resultmat, vector<cv::Point2i> pathVec)$/;"	f	class:CleaningPathPlanning
+x	clean_robot/src/next_goal.cpp	/^    float x;$/;"	m	struct:Path_planned::Goal	file:
+x	clean_robot/src/next_goal.cpp	/^  float x;$/;"	m	class:quaternion_ros	file:
+x_current	clean_robot/src/next_goal.cpp	/^float x_current;$/;"	v
+y	clean_robot/src/next_goal.cpp	/^    float y;$/;"	m	struct:Path_planned::Goal	file:
+y	clean_robot/src/next_goal.cpp	/^  float y;$/;"	m	class:quaternion_ros	file:
+y_current	clean_robot/src/next_goal.cpp	/^float y_current;$/;"	v
+z	clean_robot/src/next_goal.cpp	/^  float z;$/;"	m	class:quaternion_ros	file:
+~Explore	explore/src/explore.cpp	/^Explore::~Explore()$/;"	f	class:explore::Explore
